@@ -5,7 +5,6 @@ body {
   font-size: 14px;
   position: absolute;
   width: 1600px;
-  /* height: 2924px; */
 }
 .link {
   text-decoration: none;
@@ -16,6 +15,10 @@ body {
   display: flex;
   align-items: center;
   padding: 0px;
+}
+
+.h1.h2.h3 {
+  margin: 0px;
 }
 
 .margin-zero {
@@ -29,20 +32,16 @@ body {
 }
 
 .container {
-  /* width: 1170px; */
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  /* margin-left: 0;
-  margin-right: 0; */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .header .container {
   display: flex;
   justify-content: space-between;
-}
-
-.address-header {
-  margin-right: 215px;
 }
 
 .logo {
@@ -69,7 +68,7 @@ body {
 .navigation {
   display: flex;
   align-items: center;
-  margin-left: 215px;
+  /* margin-left: 215px; */
 }
 
 .navigation-list {
@@ -154,7 +153,7 @@ body {
 .feature-list {
   display: flex;
   list-style: none;
-  margin-left: 215px;
+  /* margin-left: 215px; */
   padding: 0px;
 }
 .feature-list-link {
@@ -195,7 +194,7 @@ margin-right: 30px;
 }
 
 .what-do-we-do-list {
-  margin-left: 215px;
+  /* margin-left: 215px; */
 }
 
 .what-we-do-list:not(:last-child) {
@@ -223,7 +222,7 @@ margin-right: 30px;
 /* Team */
 
 .team-photo-block {
-  margin-left: 215px;
+  /* margin-left: 215px; */
 }
 
 .team-contacts:not(:last-child) {
@@ -277,7 +276,7 @@ margin-right: 30px;
 }
 
 .clients-icons-block {
-  margin-left: 215px;
+  /* margin-left: 215px; */
 }
 
 .clients-container-item {
@@ -302,7 +301,6 @@ margin-right: 30px;
 /* Footer */
 
 .footer {
-  /* width: 1600px; */
   height: 252px;
   background-color: var(--footer-background-color);
   display: flex;
@@ -324,15 +322,13 @@ margin-right: 30px;
   padding-top: 60px;
   padding-left: 81px;
   color: var(--primary-white-color);
-  margin-bottom: 20px;
-  
+  padding-bottom: 20px;
 }
 
 .join-us-item {
   padding-bottom: 20px;
 }
 .footer-adress-list {
-  /* flex-direction: column; */
   padding-left: 81px;
   list-style: none;
 }
@@ -366,6 +362,10 @@ margin-right: 30px;
 
 
 /* Portfolio */
+
+.header-portfolio {
+  margin-bottom: 93px;
+}
 
 .what-do-we-do {
   justify-content: center;
@@ -426,6 +426,7 @@ background-color:var(--accent-color);
 
 .project-samples {
   margin-left: 200px;
+  margin-bottom: 94px;
 }
 
 .project-list {
