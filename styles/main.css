@@ -1,10 +1,10 @@
 body {
-  background-color: var(--primary-white-color);
-  font-family: "Roboto", sans-serif;
-  color: var(--primary-title-color);
+   background-color: var(--primary-white-color);
+   font-family: "Roboto", sans-serif;
+   color: var(--primary-title-color);
   font-size: 14px;
-  position: absolute;
-  width: 1600px;
+   /* position: absolute;
+   width: 1600px; */
 }
 .link {
   text-decoration: none;
@@ -112,7 +112,7 @@ body {
   height: 600px;
   text-align: center;
   padding-top: 200px;
-  margin-bottom: 94px;
+  /* margin-bottom: 94px; */
 }
 .main-title {
   font-weight: 900;
@@ -148,7 +148,8 @@ body {
 /* Why are we */
 
 .mar-bot-container {
-  margin-bottom: 94px;
+  padding-bottom: 94px;
+  padding-top: 94px;
 }
 .feature-list {
   display: flex;
@@ -190,12 +191,14 @@ margin-right: 30px;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-title-color);
-  margin-bottom: 50px;
+  padding-top: 0px;
+  padding-bottom: 50px;
+  margin: 0px;
 }
 
-.what-do-we-do-list {
-  /* margin-left: 215px; */
-}
+/* .what-do-we-do-list {
+  /* margin-left: 215px; 
+} */
 
 .what-we-do-list:not(:last-child) {
 margin-right: 30px;
@@ -221,9 +224,9 @@ margin-right: 30px;
 
 /* Team */
 
-.team-photo-block {
-  /* margin-left: 215px; */
-}
+/* .team-photo-block {
+  /* margin-left: 215px; 
+} */
 
 .team-contacts:not(:last-child) {
   margin-right: 30px;
@@ -242,8 +245,9 @@ margin-right: 30px;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-title-color);
-  padding-top: 94px;
+  /* padding-top: 94px; */
   padding-bottom: 50px;
+  margin: 0px;
 
 }
 .teammate {
@@ -273,11 +277,13 @@ margin-right: 30px;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-title-color);
+  padding-bottom: 50px;
+  margin: 0px;
 }
 
-.clients-icons-block {
-  /* margin-left: 215px; */
-}
+/* .clients-icons-block {
+  /* margin-left: 215px; 
+} */
 
 .clients-container-item {
   display: flex;
@@ -311,6 +317,12 @@ margin-right: 30px;
   align-items: baseline;
 }
 
+.address-wrapper {
+  display: block;
+  align-items: baseline;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 
 .logo-footer {
   font-family: Raleway;
@@ -319,17 +331,16 @@ margin-right: 30px;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  padding-top: 60px;
-  padding-left: 81px;
   color: var(--primary-white-color);
-  padding-bottom: 20px;
+  margin-bottom: 20px;
+  /* padding-bottom: 20px; */
 }
 
 .join-us-item {
   padding-bottom: 20px;
 }
 .footer-adress-list {
-  padding-left: 81px;
+  padding: 0px;
   list-style: none;
 }
 
@@ -364,17 +375,24 @@ margin-right: 30px;
 /* Portfolio */
 
 .header-portfolio {
-  margin-bottom: 93px;
+  padding-bottom: 93px;
+}
+
+.services-list-container {
+  padding-bottom: 94px;
 }
 
 .what-do-we-do {
   justify-content: center;
+  align-items: center;
   padding: 0px;
   margin-bottom: 50px;
 }
 
 .what-do-we-do-buttons {
-  margin-left: 495px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 34px; 
 }
 
 .what-we-do-buttons {
@@ -424,10 +442,6 @@ background-color:var(--accent-color);
   align-items: center;
 }
 
-.project-samples {
-  margin-left: 200px;
-  margin-bottom: 94px;
-}
 
 .project-list {
   flex-wrap: wrap;
